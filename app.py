@@ -207,7 +207,7 @@ def build_dataset(sample_size, json_file_train, json_file_test):
     # 2: bigrams of characters
     # 3: trigrams of characters
     # 4: 4-grams of characters
-    token_list = [-1, 2, 3, 4]  # With q-grams
+    token_list = [2, 3, 4]  # With q-grams
 
     # Initialize and fit MicroTC text model.
     # Parameters include:
