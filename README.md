@@ -45,15 +45,18 @@ The figure below illustrates how LinearGEX reconstructs word-level relevance fro
 <p align="center"><em>Figure: Example of token-level heatmap produced by LinearGEX.</em></p>
 
 ---
+## 💻 Implementation and Experiments
 
-## 📊 Experiments
-All controlled experiments reported in the paper (Section 4) can be reproduced via the notebooks in [`experiments/`](./experiments).  
-They evaluate:
+The LinearGEX prototype is developed in **Python** using the **Flask** framework, providing a lightweight web-based interface to visualize token-level explanations, explore batch heatmaps, and export structured JSON relevance data.  
+
+Alongside the prototype, the repository includes **Jupyter notebooks** under [`experiments/`](./experiments) that reproduce the controlled Colab experiments described in Section 4 of the manuscript. These notebooks implement dataset loaders, µTC tokenization + TF–IDF pipelines, LinearSVC/BERT models, and explainability runners for SHAP, LIME, and LinearGEX.  
+
+The experiments evaluate:  
 - **Fidelity** ($R^2$ on native outputs: margins for LinearSVC, logits for BERT, surrogate fit for LIME).  
 - **Auxiliary metrics** (MAE for SHAP/LinearGEX, STD for LIME).  
 - **Runtime and scalability** (per-instance time, batch size, batch runtime).  
 
-Results are exported as CSV tables consistent with **Table 5** of the manuscript.
+Results are exported as CSV tables consistent with **Table 5** of the paper.
 
 ---
 
