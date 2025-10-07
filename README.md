@@ -3,12 +3,12 @@
 <!-- [![Paper](https://img.shields.io/badge/paper-PDF-blue)](link_to_preprint_or_paper) -->  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-LinearGEX is a **pre-hoc explainability framework** for short-text NLP tasks.  
+LinearGEX is a **pre-hoc explainability framework** for sparse-text NLP tasks.  
 It combines **q-gram tokenization**, **linear classifiers**, and a **deterministic gram-to-word tracing mechanism** to provide efficient, human-readable, and scalable token-level explanations.  
 
 This repository contains the implementation, experimental notebooks, and supplementary materials for the manuscript:
 
-> *LinearGEX: A Symbolic Pre-hoc Framework for Gram-based EXplainability in Short-Text NLP*  
+> *LinearGEX: A Symbolic Pre-hoc Framework for Gram-based EXplainability in Sparse-Text NLP*  
 > José J. Calderón-Ochoa, Mario Graff, Eric S. Téllez
 
 ---
