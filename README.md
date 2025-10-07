@@ -1,4 +1,4 @@
-# LinearGEX: A Symbolic Pre-hoc Framework for Gram-based EXplainability in Short-Text NLP
+# LinearGEX: A Symbolic Pre-hoc Framework for Gram-based EXplainability in Sparse-Text NLP
 
 <!-- [![Paper](https://img.shields.io/badge/paper-PDF-blue)](link_to_preprint_or_paper) -->  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
